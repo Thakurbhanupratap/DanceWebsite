@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    background-color: rgb(146, 28, 28);
+    padding: 5px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar #logo img{
+    height: 53px;
+    width: 53px;
+    margin: 0 43px;
+}
+
+#navbar #logo div{ 
+    font-weight: bold;
+    margin: 0 43px;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 12px 12px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#navbar li a:hover{
+    color: rgba(255, 0, 0, 0.548);
+    text-shadow: 0 0 0 white;
+}
+
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 58px;
+    align-items: center;
+    background: url("/static/andrea-palacios-ahmNxL5MSLI-unsplash.jpg") center/cover no-repeat;
+    height: 425px;
+    font-family: 'Bitter', serif;
+    text-shadow:  2px 2px 9px white, 1px 1px 6px red ;
+}
+
+#introSection div.small{
+    font-size: 49px;
+    padding: 5px;
+    font-family: 'Bitter', serif;
+    text-shadow: 2px 2px 9px white, 3px 3px 5px blue;
+}
+
+
+#missionSection h2{
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    margin: 23px 20px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    padding: 0 13px;
+    margin: 7px 9px;
+}
+
+.card-img img{
+    /* height: inherit; */
+    height: 142px;
+}
+
+.card-content{
+    font-family: 'Girassol', cursive;
+}
+
+
+#sponsorsSection{
+    background-color: #d7cdcd;
+    height: 300px;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.sponsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsers img{
+    margin: 20px 24px;
+    width: 181px;
+    height: 181px;
+}
+
+#footer{
+    background-color: #3c3c3c;
+    height: 67px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+

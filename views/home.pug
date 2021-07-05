@@ -1,0 +1,46 @@
+extends base.pug 
+
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+      div Welcome to Bhanu's Dance Acadmy 
+      div.small Small Eat Sleep Dance Repeat 
+
+    section#missionSection 
+      h2 Our Mission 
+      div.card 
+        h3 Dance Perfection 
+        div.card-box 
+          div.card-img 
+            img(src="/static/first.png", alt="")
+          div.card-content 
+            p This is the best dance academy of the universe
+      
+      div.card 
+        h3 Dance Perfection 
+        div.card-box 
+          div.card-img 
+            img(src="/static/second.png", alt="")
+          div.card-content 
+            p This is the best dance academy of the universe
+
+      div.card 
+        h3 Dance Perfection 
+        div.card-box 
+          div.card-img 
+            img(src="/static/third.png", alt="")
+          div.card-content 
+            p This is the best dance academy of the universe
+    section#sponsorsSection 
+      h2 Our Sponsors 
+        div.sponsers 
+          img(src="/static/logo1.png", alt="")
+          img(src="/static/logo2.png", alt="")
+          img(src="/static/logo3.png", alt="")
+          img(src="/static/logo4.png", alt="")
